@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    background-color:white;
+    color: black;
+    font-family: "Poppins", sans-serif;
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(240, 239, 235);
+    height: 70px;
+    align-items: center;
+   
+    
+  }
+
+  nav ul{
+    display: flex;
+  
+   
+  }
+
+  nav ul li{
+    list-style: none;
+    margin: 0 13px;
+    
+    
+    
+  }
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+  }
+  nav ul li a:hover{
+    font-size: 1.03rem;
+    color: rgb(169, 155, 155);
+  }
+ 
+
+  nav .left{
+        font-size: 1.5rem;
+        color:black;
+  }
+
+  nav div{
+    margin: 0 90px
+  }
+  .firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+  }
+
+  .secondSection{
+    
+    text-align: center;
+    margin-top: 60px;
+   
+  }
+
+  .secondSection img{
+    margin: 20px;
+  }
+
+  .firstSection .leftSection{
+   
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2rem;
+   
+  }
+
+
+   .leftSection .buttons{
+    margin: 10px 0;
+   }
+
+   .leftSection .buttons img{
+    margin : 0 5px;
+   }
+
+  
+
+
+
+
+
+  .violet{
+    color: rgb(123, 15, 123);
+  }
+
+  
+  #element{
+    color: rgb(123, 15, 123);
+  }
+
+  
+  footer{
+    margin-top: 70px;
+   
+    text-align: center;
+    background-color:rgb(240, 239, 235) ;
+    height: 35px;
+    padding-top: 5px;
+    
+   
+  
+  }
+ footer a{
+  text-decoration: none;
+  color:black;
+  
+ }
+
+.contact{
+  display: flex;
+  border: 2px solid rgb(202, 196, 169);;
+  padding: 35px  ;
+  width: 60%;
+  margin-left: 181px;
+  margin-top: 20px;
+  border-radius: 6px;
+   
+}
+
+.contact-left{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+  font-size: 15px;
+  gap: 5px;
+ 
+  
+}
+
+
+  
+
+ 
+
+.contact-right{
+  flex: 2;
+  padding: 0 50px;
+ 
+}
+
+
+.contact-middle{
+  height: 211px;
+  width: 2.2px;
+  background-color: rgb(226, 206, 206);
+  margin: 34px 0;
+
+}
+
+
+
+
+ 
+
+.fourthSection{
+  margin-top: 90px;
+}
+ .contact-right button{
+  margin-top: 133px;
+  width: 80px;
+  background-color:purple;
+  color: white;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+ }
+
+.form{
+  margin-top: 30px;
+}
+
+.form input{
+  background-color:rgb(240, 239, 235)
+}
+ 
