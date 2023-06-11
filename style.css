@@ -59,7 +59,7 @@
   .secondSection{
     
     text-align: center;
-    margin-top: 60px;
+    margin-top: 2rem;
    
   }
 
@@ -186,4 +186,34 @@
 .form input{
   background-color:rgb(240, 239, 235)
 }
+  
+
+.thirdSection{
+  text-align: center;
+  margin: 150px 0;
+}
+.projects-container{
+  display: flex;
  
+
+}
+
+.project-pic{
+  height: 60%;
+  width: 60%;
+}
+
+.projects-container{
+  margin: 2rem;
+ 
+ 
+}
+
+ 
+.project-container{
+
+  margin:  10px;
+
+  
+ 
+}
